@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-broadcast-bot",
+  "version": "0.1.0",
+  "description": "A Telegram companion bot for https://t.me/fullstackbroadcast.",
+  "main": "index.js",
+  "repository": "https://github.com/domcorvasce/fullstack-broadcast-bot",
+  "author": "Dom Corvasce <dom.corvasce@yandex.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.28.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
