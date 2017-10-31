@@ -8,7 +8,7 @@
   "license": "GPL-3.0",
   "scripts": {
     "lint": "eslint --ext .js lib",
-    "test": "mocha **/*.test.js"
+    "test": "mocha lib --recursive *.test.js"
   },
   "dependencies": {
     "dotenv": "^4.0.0",
