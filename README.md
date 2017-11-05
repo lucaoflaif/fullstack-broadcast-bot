@@ -28,6 +28,7 @@ CHANNEL_ID= # The channel ID where the bot is admin
 GROUP_ID= # The group ID where the bot is admin
 WELCOME_MESSAGE= # A welcome message for your group's new users
 ```
+The _WELCOME_MESSAGE_ environment variable must contain the `%s` placeholder that'll be replaced with the new user's name. Otherwise, the name will be appended in the end of the message.
 
 ## Getting Started
 
