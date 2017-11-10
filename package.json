@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "dotenv": "^4.0.0",
+    "mongoose": "^4.13.1",
     "node-telegram-bot-api": "^0.28.0"
   },
   "devDependencies": {
