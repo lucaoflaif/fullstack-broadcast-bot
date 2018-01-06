@@ -1,6 +1,12 @@
 # fullstack-broadcast-bot
 A Telegram companion bot for https://t.me/fullstackbroadcast
 
+## Features
+
+- Forwards every channel post to a group.
+- Receive messages from users and send 'em to a group.
+- Delete duplicated links posted on the channel.
+
 ## Installation
 
 Clone this repository:
