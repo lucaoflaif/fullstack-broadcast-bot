@@ -20,25 +20,9 @@ npm i
 
 The bot _requires_ a set of environment variable to configure itself.
 
-Create a `.env` file and fill it with the following environment variables:
+Copy `.env.example` to `.env` and fill it with the necessary information.
 
-```plain
-# Your Telegram bot token
-BOT_TOKEN=
-
-# The channel ID where the bot is admin
-CHANNEL_ID=
-
-# The group ID where the bot is admin
-GROUP_ID=
-
-# The connection to MongoDB (e.g. mongodb://localhost/my_database)
-MONGO_DB=
-
-# A welcome message for your group's new users
-WELCOME_MESSAGE=
-```
-The _WELCOME_MESSAGE_ environment variable must contain the `%s` placeholder that'll be replaced with the new user's name. Otherwise, the name will be appended in the end of the message.
+The _WELCOME_MESSAGE_ environment variable must contain the `%s` placeholder that'll be replaced with the new user's name. Otherwise, the name will be appended at the end of the message.
 
 ## Getting Started
 
